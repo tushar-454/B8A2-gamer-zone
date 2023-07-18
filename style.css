@@ -7,3 +7,52 @@
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
 }
+
+/* common css style start  */
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+/* common css style end */
+
+/* nav css style start  */
+.logo p {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.headerWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.375rem 0rem;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.menu ul li:last-child {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 0.6rem 1.25rem;
+}
+.menu ul li a,
+p {
+  color: #3c354f;
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+/* nav css style end */
