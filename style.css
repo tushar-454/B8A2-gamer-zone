@@ -106,6 +106,9 @@ p {
   font-weight: 500;
   text-transform: lowercase;
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 .bannerStyleText {
   margin-bottom: 1.5rem;

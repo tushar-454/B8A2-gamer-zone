@@ -76,3 +76,25 @@
     padding: 0rem 1rem;
   }
 }
+
+/* for many small mobile device  */
+@media screen and (max-width: 320px) {
+  .container {
+    width: 100%;
+    padding: 0rem 1rem;
+  }
+  .bannerText p {
+    font-size: 2rem;
+  }
+  .bannerStyleText h1 {
+    font-size: 3.9rem;
+  }
+  .bannerListText p {
+    font-size: 1rem;
+  }
+  .bannerBtn {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+}
