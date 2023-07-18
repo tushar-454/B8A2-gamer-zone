@@ -29,6 +29,9 @@
     flex-direction: column;
     align-items: center;
   }
+  .funnyVideosCardWrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* for small laptop or tablet device */
@@ -49,6 +52,9 @@
   }
   .weAreGamerTextWrap {
     text-align: center;
+  }
+  .funnyVideosCardWrap {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
