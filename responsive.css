@@ -44,6 +44,12 @@
     flex-direction: column;
     gap: 2.5rem;
   }
+  .weAreGamerWrap {
+    flex-direction: column;
+  }
+  .weAreGamerTextWrap {
+    text-align: center;
+  }
 }
 
 /* for mobile device  */
@@ -51,6 +57,9 @@
   .container {
     width: 100%;
     padding: 0rem 1rem;
+  }
+  .weAreGamerTextWrap {
+    width: 100%;
   }
 }
 
