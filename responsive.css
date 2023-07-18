@@ -1,0 +1,47 @@
+/* for large laptop  */
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+}
+
+/* for medium laptop  */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+  .menu ul {
+    gap: 1.5rem;
+  }
+}
+
+/* for small laptop or tablet device */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  .headerWrap {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .menu ul {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+}
+
+/* for mobile device  */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0rem 1rem;
+  }
+}
+
+/* for small mobile device  */
+@media screen and (max-width: 425px) {
+  .container {
+    width: 100%;
+    padding: 0rem 1rem;
+  }
+}
