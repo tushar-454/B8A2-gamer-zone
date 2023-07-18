@@ -13,6 +13,22 @@
   .menu ul {
     gap: 1.5rem;
   }
+  .bannerWarp {
+    flex-direction: column-reverse;
+  }
+  .banner {
+    background-image: none;
+  }
+  .bannerTextWrap {
+    padding: 8rem 0rem;
+    background-image: url('./images/Group14.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* for small laptop or tablet device */

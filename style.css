@@ -118,10 +118,18 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 5rem;
 }
 .banner {
   background-image: url('./images/Group14.png');
   background-repeat: no-repeat;
   background-size: contain;
+}
+.bannerImg img {
+  width: 100%;
+}
+
+.bannerTextWrap {
+  padding: 2rem 0rem;
 }
 /* banner css style end */
