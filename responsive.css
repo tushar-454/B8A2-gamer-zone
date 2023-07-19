@@ -207,6 +207,9 @@
   .footerCopyright p {
     line-height: 30px;
   }
+  .footerCopyright p span {
+    display: block;
+  }
 }
 
 /* for many small mobile device  */
