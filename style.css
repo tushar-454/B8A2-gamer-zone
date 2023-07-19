@@ -254,7 +254,7 @@ p {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  background: #0000009c;
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 1rem;
   visibility: hidden;
 }
