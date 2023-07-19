@@ -41,6 +41,12 @@
   .playInstantWrap {
     gap: 6rem;
   }
+  .playGamesOnlineOverflowImg {
+    transform: scale(0.6);
+  }
+  .playGamesOnlineWrap {
+    gap: 6rem;
+  }
 }
 
 /* for small laptop or tablet device */
@@ -79,6 +85,20 @@
     justify-content: end;
     align-items: end;
   }
+  .playGamesOnlineWrap {
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+  .playGamesOnlineImgWrap {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  .playGamesOnlineText {
+    width: 26rem;
+    text-align: center;
+  }
 }
 
 /* for mobile device  */
@@ -94,6 +114,10 @@
     transform: scale(0.5);
     bottom: -155px;
   }
+  .playGamesOnlineOverflowImg {
+    transform: scale(0.5);
+    bottom: -155px;
+  }
 }
 
 /* for small mobile device  */
@@ -102,10 +126,16 @@
     width: 100%;
     padding: 0rem 1rem;
   }
+  .playInstantText {
+    width: 100%;
+  }
+  .playGamesOnlineText {
+    width: 100%;
+  }
 }
 
 /* for many small mobile device  */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .container {
     width: 100%;
     padding: 0rem 1rem;

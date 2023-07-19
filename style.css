@@ -278,7 +278,7 @@ p {
   color: #534c64;
   font-size: 1.25rem;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
 }
 
 .playInstantWrap {
@@ -303,3 +303,43 @@ p {
   transform: scale(0.8);
 }
 /* play instant css style end */
+
+/* play games online css style start  */
+.playGamesOnlineText h1 {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 1.5rem;
+}
+
+.playGamesOnlineText p {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.playGamesOnlineWrap {
+  margin: 10rem 0rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+}
+
+.playGamesOnlineText {
+  width: 30rem;
+  text-align: left;
+}
+.playGamesOnlineImgWrap {
+  position: relative;
+}
+
+.playGamesOnlineOverflowImg {
+  position: absolute;
+  bottom: -110px;
+  right: -150px;
+  transform: scale(0.8);
+}
+/* play games online css style end */
