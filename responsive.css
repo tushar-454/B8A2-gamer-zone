@@ -108,6 +108,7 @@
   .careersListWrap {
     flex-direction: column;
     gap: 2rem;
+    font-size: 1rem;
   }
   .careersListRight ul {
     text-align: left;
@@ -143,6 +144,9 @@
     width: 100%;
   }
   .playGamesOnlineText {
+    width: 100%;
+  }
+  .singleTypeofGames {
     width: 100%;
   }
 }

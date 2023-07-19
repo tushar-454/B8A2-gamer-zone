@@ -364,7 +364,7 @@ p {
   display: flex;
   justify-content: space-between;
   gap: 5rem;
-  margin: 10rem 0rem 4rem;
+  margin: 10rem 0rem 0rem;
   padding: 6rem 0rem;
 }
 
@@ -416,3 +416,28 @@ p {
   text-align: right;
 }
 /* careers css style end */
+
+/* type of games css start  */
+.typeofGamesWrap {
+  padding: 5rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.singleTypeofGames {
+  width: 17rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 50px;
+  background: #fff;
+  padding: 0.5rem 1rem;
+  border: 1px solid;
+}
+
+.typeofGames {
+  background: #fff9fc;
+}
+/* type of games css end */
