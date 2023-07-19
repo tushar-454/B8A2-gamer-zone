@@ -446,6 +446,15 @@ p {
 .typeofGames {
   background: #fff9fc;
 }
+.singleTypeofGames p {
+  color: #0b0223;
+  transition: 0.3s;
+  font-size: 20px;
+  font-weight: 600;
+}
+.singleTypeofGames:hover p {
+  color: #f948b2;
+}
 /* type of games css end */
 
 /* footer css style start  */
