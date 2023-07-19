@@ -162,9 +162,6 @@
   .typeofGamesWrap {
     gap: 10px;
   }
-  .typeofGamesWrap {
-    /* justify-content: space-between; */
-  }
   .singleTypeofGames {
     width: 10rem;
     gap: 0.5rem;
