@@ -434,10 +434,84 @@ p {
   border-radius: 50px;
   background: #fff;
   padding: 0.5rem 1rem;
-  border: 1px solid;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.singleTypeofGames:hover {
+  border: 1px solid #f948b2;
 }
 
 .typeofGames {
   background: #fff9fc;
 }
 /* type of games css end */
+
+/* footer css style start  */
+footer {
+  background: #0b0223;
+}
+
+.footerWrap {
+  width: 49.625rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7rem 0rem;
+}
+
+.footerLogo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+.footerLogo a:last-child {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footerLink {
+  display: flex;
+  gap: 3.5rem;
+  margin-bottom: 3.3rem;
+}
+
+.footerLink a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footerIcon {
+  display: flex;
+  gap: 3.5rem;
+  margin-bottom: 4.5rem;
+  align-items: center;
+}
+
+.footerWebLink {
+  display: flex;
+  gap: 3.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.footerWebLink a {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footerCopyright p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+/* footer css style end */
