@@ -47,6 +47,12 @@
   .playGamesOnlineWrap {
     gap: 6rem;
   }
+  .careersWrap {
+    flex-direction: column;
+  }
+  .careersText {
+    width: 100%;
+  }
 }
 
 /* for small laptop or tablet device */
@@ -98,6 +104,13 @@
   .playGamesOnlineText {
     width: 26rem;
     text-align: center;
+  }
+  .careersListWrap {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .careersListRight ul {
+    text-align: left;
   }
 }
 

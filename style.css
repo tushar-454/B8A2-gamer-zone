@@ -34,6 +34,17 @@
   text-decoration: none;
 }
 
+.third-btn {
+  padding: 21px 40px;
+  border-radius: 3rem;
+  background: #fff;
+  color: #ff42a5;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .gradient-text {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
@@ -343,3 +354,65 @@ p {
   transform: scale(0.8);
 }
 /* play games online css style end */
+
+/* careers css style start  */
+.careers {
+  background-color: #ff42a5;
+}
+
+.careersWrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  margin: 10rem 0rem 4rem;
+  padding: 6rem 0rem;
+}
+
+.careersText {
+  width: 61.5rem;
+}
+
+.careersTitle h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+}
+
+.careersSubTitle p {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.careersTitle {
+  margin-bottom: 1.5rem;
+}
+
+.careersSubTitle {
+  margin-bottom: 2rem;
+}
+
+.careersListWrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.5rem;
+}
+.careersListLeft ul,
+.careersListRight ul {
+  list-style: none;
+}
+
+.careersListLeft ul li,
+.careersListRight ul li {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 40px; /* 200% */
+}
+
+.careersListRight ul {
+  text-align: right;
+}
+/* careers css style end */
