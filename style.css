@@ -35,7 +35,6 @@
 }
 
 .gradient-text {
-  text-transform: uppercase;
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -266,3 +265,41 @@ p {
   visibility: initial;
 }
 /* og funny videos css style end */
+
+/* play instant css style start  */
+.playInstantText h1 {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.playInstantText p {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.playInstantWrap {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10rem;
+}
+
+.playInstantText {
+  width: 22rem;
+  text-align: right;
+}
+.playInstantImgWrap {
+  position: relative;
+}
+
+.playInstantOverflowImg {
+  position: absolute;
+  bottom: -110px;
+  left: -150px;
+  transform: scale(0.8);
+}
+/* play instant css style end */
