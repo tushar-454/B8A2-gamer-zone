@@ -247,10 +247,11 @@ p {
   visibility: hidden;
 }
 
-.cardOverlays p {
+.cardOverlays a {
   font-size: 1.25rem;
   color: #ff42a5;
   font-weight: 600;
+  text-decoration: none;
 }
 .funnyVideoCardText {
   margin-top: 1.5rem;
@@ -261,10 +262,5 @@ p {
 
 .funnyVideoCardImg:hover .cardOverlays {
   visibility: initial;
-}
-
-.cardOverlays img,
-p {
-  cursor: pointer;
 }
 /* og funny videos css style end */
